@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TUGAS_UTS</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="intro1_title">Favorit</string>
+    <string name="intro1_desc">Berisi galley foto dan musik favorit</string>
+
+    <string name="intro2_title">Aktivitas</string>
+    <string name="intro2_desc">Berisi tentang keseharian saya</string>
+
+    <string name="intro3_title">Profile</string>
+    <string name="intro3_desc">Berisi tentang Portofolio pribadi saya</string>
+
+</resources>

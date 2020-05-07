@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8084f6</color>
+    <color name="colorPrimaryDark">#494dea</color>
+    <color name="colorAccent">#ffc50d</color>
+
+    <color name="colorMainBackground">#f8f8f8</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorWhiteE">#EEEEEE</color>
+    <color name="colorWhiteFour">#dedede</color>
+    <color name="colorGunmetal">#525b60</color>
+    <color name="colorSunYellow">#ffe41e</color>
+    <color name="colorSunflower">#ffc50d</color>
+    <color name="colorBlack87">#de000000</color>
+    <color name="Merahjambu">#ffc0cb</color>
+    <color name="Birulangit">#FF00FFFF</color>
+    <color name="toska">#FFCCFFFF</color>
+    <color name="rose">#FFFF99CC</color>
+
+    <color name="colorCoolGrey">#bababb</color>
+    <color name="colorGreyBorder">#EBEBEB</color>
+
+    <color name="colorLavenderBlue">#8084f6</color>
+    <color name="colorPurpleishBlue">#494dea</color>
+    <color name="colorBlue">#3e43e9</color>
+    <color name="lightblue">#00ffce</color>
+
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#800000</color>
+    <color name="bg_screen2">#006400</color>
+    <color name="bg_screen3">#008B8B</color>
+    <color name="bg_screen4">#8A2BE2</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FFFFF0</color>
+    <color name="dot_dark_screen2">#FFFFF0</color>
+    <color name="dot_dark_screen3">#FFFFF0</color>
+    <color name="dot_dark_screen4">#FFFFF0</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#A9A9A9</color>
+    <color name="dot_light_screen2">#A9A9A9</color>
+    <color name="dot_light_screen3">#A9A9A9</color>
+    <color name="dot_light_screen4">#A9A9A9</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>
