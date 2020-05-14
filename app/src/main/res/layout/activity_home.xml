@@ -9,13 +9,13 @@
 
     <!--Content Main-->
     <FrameLayout
-        android:id="@+id/fl_container"
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:layout_above="@+id/menu_bottom_navigasi"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/btmview"
+        android:id="@+id/menu_bottom_navigasi"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"

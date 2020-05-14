@@ -1,10 +1,17 @@
 package com.dudenakb.tugas_uts;
 
-//Tanggal Pengerjaaan : 07 Mei 2020
-////Deskripsi Pengerjaan :Membuat Splash Screen dan Walkthrough
-//// NIM : 10117137
-//// Nama : Duden Heryana
-//// Kelas : IF-4
+// Tanggal Pengerjaaan : 07 Mei 2020
+// Deskripsi Pengerjaan :Membuat Splash Screen dan Walkthrough
+// NIM : 10117137
+// Nama : Duden Heryana
+// Kelas : IF-4
+
+//Tanggal Pengerjaaan : 15 Mei 2020
+//Deskripsi Pengerjaan : Membuat Menu
+//NIM : 10117137
+//Nama : Duden Heryana
+//Kelas : IF-4
+
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -26,9 +33,9 @@ public class home extends AppCompatActivity implements BottomNavigationView.OnNa
         // kita set default nya Home Fragment
         loadFragment(new HomeFragment());
         // inisialisasi BottomNavigaionView
-        BottomNavigationView bottomNavigationView = findViewById(R.id.home_menu);
+        BottomNavigationView bottomnav = findViewById(R.id.menu_bottom_navigasi);
         // beri listener pada saat item/menu bottomnavigation terpilih
-        bottomNavigationView.setOnNavigationItemSelectedListener(this);
+        bottomnav.setOnNavigationItemSelectedListener(this);
     }
 
     private boolean loadFragment(Fragment fragment){
@@ -43,24 +50,24 @@ public class home extends AppCompatActivity implements BottomNavigationView.OnNa
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        Fragment fragment = null;
+        Fragment Fragment = null;
         switch (menuItem.getItemId()){
             case R.id.home_menu:
-                fragment = new HomeFragment();
+                Fragment = new HomeFragment();
                 break;
             case R.id.activiti_menu:
-                fragment = new ActivityFragment();
+                Fragment = new ActivityFragment();
                 break;
             case R.id.gallery_menu:
-                fragment = new GelleryFragment();
+                Fragment = new GelleryFragment();
                 break;
             case R.id.music_menu:
-                fragment = new MusicFragment();
+                Fragment = new MusicFragment();
                 break;
             case R.id.profile_menu:
-                fragment = new ProfileFragment();
+                Fragment = new ProfileFragment();
                 break;
         }
-        return loadFragment(fragment);
-    }
+        return loadFragment(Fragment);
+    };
 }

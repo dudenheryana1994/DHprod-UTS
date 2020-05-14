@@ -6,9 +6,15 @@ package com.dudenakb.tugas_uts;
 // Nama : Duden Heryana
 // Kelas : IF-4
 
-import androidx.appcompat.app.AppCompatActivity;
+// Tanggal Pengerjaaan : 15 Mei 2020
+// Deskripsi Pengerjaan : Membuat Menu
+// NIM : 10117137
+// Nama : Duden Heryana
+// Kelas : IF-4
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class intro2 extends AppCompatActivity {
 

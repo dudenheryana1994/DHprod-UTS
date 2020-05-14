@@ -1,24 +1,22 @@
 package com.dudenakb.tugas_uts;
 
-//Tanggal Pengerjaaan : 07 Mei 2020
-////Deskripsi Pengerjaan :Membuat Splash Screen dan Walkthrough
-//// NIM : 10117137
-//// Nama : Duden Heryana
-//// Kelas : IF-4
+// Tanggal Pengerjaaan : 07 Mei 2020
+// Deskripsi Pengerjaan :Membuat Splash Screen dan Walkthrough
+// NIM : 10117137
+// Nama : Duden Heryana
+// Kelas : IF-4
 
-import android.content.ClipData;
+// Tanggal Pengerjaaan : 15 Mei 2020
+// Deskripsi Pengerjaan : Membuat Menu
+// NIM : 10117137
+// Nama : Duden Heryana
+// Kelas : IF-4
+
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
-import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
-import android.os.Bundle;
-import android.view.MenuItem;
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
     private int waktu_loading=4000;
