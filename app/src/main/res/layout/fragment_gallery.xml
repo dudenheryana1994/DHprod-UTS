@@ -6,12 +6,17 @@
     android:background="@color/rose"
     tools:ignore="MissingDefaultResource">
 
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gallery"
         android:textSize="30sp"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorBlack87"
         android:layout_centerInParent="true"/>
+
+
+
 
 </RelativeLayout>

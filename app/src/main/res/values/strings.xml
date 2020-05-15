@@ -20,5 +20,10 @@
     <string name="music">Music</string>
     <string name="profile">Profile</string>
 
+    <string name="duden">Duden Heryana</string>
+    <string name="deskripsi">Hallo perkenalkan nama saya Duden Heryana Saya lahir di sukabumi, saat ini saya sedang menempuh pendidikan di Universitas Komputer Indonesia dengan jurusan Teknik Informatika</string>
+    <string name="interest">INTEREST</string>
+    <string name="hobi">Hobi yang saya sukai yaitu olahraga dan cita-cita saya menjadi orang yang berguna bagi sesama</string>
+
 
 </resources>
